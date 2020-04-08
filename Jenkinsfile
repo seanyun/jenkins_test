@@ -16,8 +16,6 @@ pipeline {
                 sh 'printenv'
             }
         }
-    }
-    stages {
         stage('Test') {
             steps {
                 sh 'node --version'
